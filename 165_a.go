@@ -37,10 +37,6 @@ func ConvertSlice(slice []string) []int {
 	return convertedSlice
 }
 
-func UselessFunc() {
-	fmt.Println("check golangci-lint")
-}
-
 func main() {
 
 	numbers := os.Args[1:]
