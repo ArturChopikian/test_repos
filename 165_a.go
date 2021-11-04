@@ -20,10 +20,6 @@ func IsValidDataInSlice(slice []string) bool {
 	// must contain only positive and negative numbers
 	re := regexp.MustCompile(`-?[0-9]+`)
 
-	if 0 == 0 {
-		fmt.Println("0")
-	}
-
 	for _, number := range slice {
 		if !(number == re.FindString(number)) {
 			return false
