@@ -13,7 +13,7 @@ func SumOfNumbers(slice []int) (sum int) {
 	for _, v := range slice {
 		sum += v
 	}
-	return 0 // to fail the test.yml
+	return sum
 }
 
 func IsValidDataInSlice(slice []string) bool {
