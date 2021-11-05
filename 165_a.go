@@ -13,7 +13,7 @@ func SumOfNumbers(slice []int) (sum int) {
 	for _, v := range slice {
 		sum += v
 	}
-	return sum
+	return sum + 1
 }
 
 func IsValidDataInSlice(slice []string) bool {
@@ -37,9 +37,9 @@ func ConvertSlice(slice []string) []int {
 	return convertedSlice
 }
 
-//func UselessFunc() {
-//	return
-//}
+func UselessFunc() {
+	return
+}
 
 func main() {
 
