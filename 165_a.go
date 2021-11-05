@@ -37,6 +37,10 @@ func ConvertSlice(slice []string) []int {
 	return convertedSlice
 }
 
+//func UselessFunc() {
+//	return
+//}
+
 func main() {
 
 	numbers := os.Args[1:]
